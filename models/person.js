@@ -30,6 +30,15 @@ const personSchema = new mongoose.Schema({
     type: Number,
     required: true, // Correct spelling of 'required'
   },
+
+  username: {
+    type: String,
+    required: true,
+  },
+  password: {
+    type: String,
+    required: true,
+  },
 });
 
 // Create a model called 'Person' based on the schema
